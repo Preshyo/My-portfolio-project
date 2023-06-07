@@ -22,6 +22,7 @@ font-family: var(--default-font-family);
 h3 {
     font-size: 80px;
     font-family: var(--heading-font-family);
+    margin-top: 5px;
 }
 
 .hero{
