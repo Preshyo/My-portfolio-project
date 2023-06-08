@@ -4,7 +4,7 @@
     --secondary-color:#FBBF77;
     --heading-font-family: 'Playfair Display', serif;
     --default-font-family: 'Poppins', sans-serif;
-    --font-family: 'Courgette', cursive;
+    --page-font-family: 'Courgette', cursive;
 }
 body{
 
@@ -14,10 +14,14 @@ h1 {
    font-size: 80px; 
    font-family: var(--heading-font-family);
 }
-h2 {
+h4 {
     font-size: 40px;
     margin-bottom: 10px;
 font-family: var(--default-font-family);
+}
+h2{
+    font-family: var(--page-font-family);
+    font-size: 40px;
 }
 h3 {
     font-size: 80px;
@@ -30,6 +34,9 @@ h3 {
     padding: 80px 10px;
     margin:5px 30px;
     border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
  p{
     font-size: 20px;
