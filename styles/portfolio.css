@@ -6,16 +6,13 @@
     --default-font-family: 'Poppins', sans-serif;
     --page-font-family: 'Courgette', cursive;
 }
-body{
-
-}
 
 h1 {
    font-size: 80px; 
    font-family: var(--heading-font-family);
 }
 h4 {
-    font-size: 40px;
+    font-size:32px;
     margin-bottom: 10px;
 font-family: var(--default-font-family);
 }
@@ -39,9 +36,9 @@ h3 {
     width: 80%;
 }
  p{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: normal;
-    margin-top: 10px;
+    margin-top: 13px;
 }
 .btn-branding{
     border-radius: 4px;
@@ -61,4 +58,7 @@ h3 {
     padding: 15px 30px;
 
 }
-
+@media(max-width:700px){
+    h1{ font-size:60px;}
+    h2{font-size:32px; }
+}
