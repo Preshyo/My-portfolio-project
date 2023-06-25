@@ -59,6 +59,14 @@ h3 {
     padding: 15px 30px;
 
 }
+.btn-branding-outline:hover{
+    background: white;
+    color: var(--button-color);
+}
+.btn-branding:hover{
+    background: white;
+    color: var(--button-color);
+}
 .social-links a{
     font-size: 20px;
     padding: 10px 14px;
