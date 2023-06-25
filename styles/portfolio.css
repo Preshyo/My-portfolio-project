@@ -8,20 +8,21 @@
 }
 
 h1 {
-   font-size: 80px; 
+   font-size: 60px; 
    font-family: var(--heading-font-family);
 }
 h4 {
-    font-size:32px;
+    font-size:22px;
     margin-bottom: 10px;
 font-family: var(--default-font-family);
+font-weight: 700;
 }
 h2{
     font-family: var(--page-font-family);
     font-size: 40px;
 }
 h3 {
-    font-size: 80px;
+    font-size: 60px;
     font-family: var(--heading-font-family);
     margin-top: 5px;
 }
@@ -36,7 +37,7 @@ h3 {
     width: 80%;
 }
  p{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: normal;
     margin-top: 13px;
 }
@@ -58,17 +59,28 @@ h3 {
     padding: 15px 30px;
 
 }
-footer.social-links a {
-    margin: 0 20px;
+.social-links a{
+    font-size: 20px;
     padding: 10px 14px;
-    border-radius: 50%;
-    font-size: 18px;
-    color: white;
-    background: var(--button-color);
     transition: all 100ms ease-in-out;
+    margin-top: 10px;
 }
-footer.social-links a :hover{
-    background: var(--branding-color);
+.social-links a:hover{
+    background: var(--button-color);
+}
+.about-section h1{
+    font-size: 64px;
+    line-height:80px;
+}
+
+.about-section{
+    padding: 160px 20px;
+}
+.about-section-content{
+    margin:30px;
+}
+.about-section-content p{
+
 }
 @media(max-width:900px){
     .project-description{padding:0;
